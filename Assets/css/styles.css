@@ -1,0 +1,72 @@
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+body{
+    background-image: url(/Assets/images/africa.jpg);
+    background-repeat: no zoom;
+    background-size: cover;
+    height: 100vh;
+    background-size: cover;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+#hours {
+    font-size: 70px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Orbitron';
+} 
+#minutes{
+    font-size: 70px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Orbitron';
+}
+.hyphen{
+    font-size: 70px;
+    animation:beat 1s infinite alternate;
+    -webkit-animation: beat .5s infinite alternate;
+    transform-origin: center;
+}
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
+.time{
+    padding: 15% 0;
+}
+.daite{
+    border-radius: 5px;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+hor{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #111;
+    margin: 1em 0;
+    padding: 0;
+}
+#monoth{
+    height: 50%;
+    width: 100%;
+    background-color: red;
+    font-size: 70px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Orbitron';
+}
+#daiy{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(129, 128, 128, 0.383);
+}
+.daote{
+    padding: 0% 80%;
+}
